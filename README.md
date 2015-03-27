@@ -2,7 +2,7 @@
 A repo to start writing Android code with unit tests!
 
 If you would like to run the tests in this repo, just type in your terminal 
-* `cd StartDroid`
+* `cd StarterDroid`
 * `./gradlew test --continue`
 
 You can view the output of the tests @ `/StarterDroid/app/build/reports/tests/debug/index.html`
