@@ -33,7 +33,15 @@ android {
         }
 
     }
+
+    sourceSets {
+        sourceSets.androidTest.java.srcDirs = ["src/test/java"]
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
 }
+
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
