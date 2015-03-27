@@ -8,6 +8,7 @@ If you would like to run the tests in this repo, just type in your terminal
 You can view the output of the tests @ `/StarterDroid/app/build/reports/tests/debug/index.html`
 
 ## For adding unit test support to your own project
+### If you are having any issue direct yourself to http://tools.android.com/tech-docs/unit-testing-support
 
 1) Add the following to dependencies:  
 <pre> 
@@ -22,3 +23,5 @@ You can view the output of the tests @ `/StarterDroid/app/build/reports/tests/de
 4) Run the following command line  `./gradlew test --continue`
 
 5) Look at the reports @ `/<ROOTDIRECTORY>/app/build/reports/tests/<APPFLAVOR>/index.html`
+
+
